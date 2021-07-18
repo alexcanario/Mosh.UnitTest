@@ -7,7 +7,7 @@ namespace TestNinja.UnitTests
     public class ReservationTests {
         [Test]
         public void CanBeCancelledBy_UserIsAdmin_ReturnsTrue() {
-            //CanBeCancelledBy_Scenario_ExpectedBehavior
+            //MethodName_Scenario_ExpectedBehavior
             //Arrange
             var reservation = new Reservation();
 
@@ -17,7 +17,7 @@ namespace TestNinja.UnitTests
             //Assert
             Assert.IsTrue(result);
             Assert.That(result, Is.True);
-            Assert.That(result == true);
+            Assert.That(result);
         }
 
         [Test]
