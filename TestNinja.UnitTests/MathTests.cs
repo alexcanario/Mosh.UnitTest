@@ -37,6 +37,7 @@ namespace TestNinja.UnitTests {
         }
 
         [Test]
+        [Ignore("Because I wanted to!")]
         public void Max_ArgumentsAreEqual_ReturnTheSameArgument() {
             var result = _math.Max(3, 3);
             Assert.That(result, Is.EqualTo(3));
