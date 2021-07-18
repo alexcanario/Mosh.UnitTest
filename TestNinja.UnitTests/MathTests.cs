@@ -11,7 +11,7 @@ namespace TestNinja.UnitTests {
         //teardown
         
         [SetUp]
-        private void SetUp() {
+        public void SetUp() {
             _math = new Math();
         }
 
@@ -22,9 +22,12 @@ namespace TestNinja.UnitTests {
         }
 
         [Test]
-        public void Max_FirstArgumentIsGreater_ReturnTheFirstArgument() {
-            var result = _math.Max(3, 1);
-            Assert.That(result, Is.EqualTo(3));
+        [TestCase(1,3,3)]
+        [TestCase(3,1,3)]
+        [TestCase(3,3,3)]
+        public void Max_WheCalled_ReturnTheGreater(int a, int b, int resultExpected) {
+            var result = _math.Max(a, b);
+            Assert.That(result, Is.EqualTo(resultExpected));
         }
 
         [Test]
