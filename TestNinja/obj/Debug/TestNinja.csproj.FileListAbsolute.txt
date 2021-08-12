@@ -25,3 +25,17 @@ C:\labs\mosh\1.0 Unit Test For C# Developers\TestNinja\TestNinja\obj\Debug\TestN
 C:\labs\mosh\1.0 Unit Test For C# Developers\TestNinja\TestNinja\obj\Debug\TestNinja.csproj.CopyComplete
 C:\labs\mosh\1.0 Unit Test For C# Developers\TestNinja\TestNinja\obj\Debug\TestNinja.dll
 C:\labs\mosh\1.0 Unit Test For C# Developers\TestNinja\TestNinja\obj\Debug\TestNinja.pdb
+C:\labs\Udemy\Mosh\TestNinja\bin\Debug\TestNinja.dll.config
+C:\labs\Udemy\Mosh\TestNinja\bin\Debug\TestNinja.dll
+C:\labs\Udemy\Mosh\TestNinja\bin\Debug\TestNinja.pdb
+C:\labs\Udemy\Mosh\TestNinja\bin\Debug\EntityFramework.dll
+C:\labs\Udemy\Mosh\TestNinja\bin\Debug\EntityFramework.SqlServer.dll
+C:\labs\Udemy\Mosh\TestNinja\bin\Debug\Newtonsoft.Json.dll
+C:\labs\Udemy\Mosh\TestNinja\bin\Debug\EntityFramework.xml
+C:\labs\Udemy\Mosh\TestNinja\bin\Debug\EntityFramework.SqlServer.xml
+C:\labs\Udemy\Mosh\TestNinja\bin\Debug\Newtonsoft.Json.xml
+C:\labs\Udemy\Mosh\TestNinja\obj\Debug\TestNinja.csproj.AssemblyReference.cache
+C:\labs\Udemy\Mosh\TestNinja\obj\Debug\TestNinja.csproj.CoreCompileInputs.cache
+C:\labs\Udemy\Mosh\TestNinja\obj\Debug\TestNinja.csproj.CopyComplete
+C:\labs\Udemy\Mosh\TestNinja\obj\Debug\TestNinja.dll
+C:\labs\Udemy\Mosh\TestNinja\obj\Debug\TestNinja.pdb

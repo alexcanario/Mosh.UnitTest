@@ -1,4 +1,5 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System.Linq;
+using System.Runtime.CompilerServices;
 using NUnit.Framework;
 using TestNinja.Fundamentals;
 
@@ -41,6 +42,22 @@ namespace TestNinja.UnitTests {
         public void Max_ArgumentsAreEqual_ReturnTheSameArgument() {
             var result = _math.Max(3, 3);
             Assert.That(result, Is.EqualTo(3));
+        }
+
+        [Test]
+        public void GetOddNumbers_LimitIsGreaterThanZero_ReturnOddNumbersUpToLimit() {
+            var result = _math.GetOddNumbers(5);
+
+            //Assert.That(result, Is.Not.Empty);
+            //Assert.That(result.Count(), Is.EqualTo(3));
+            
+            //Assert.That(result, Does.Contain(1));
+            //Assert.That(result, Does.Contain(3));
+            //Assert.That(result, Does.Contain(5));
+
+            Assert.That(result, Is.EquivalentTo(new [] {1, 3, 5}));
+            //Assert.That(result, Is.Ordered); //Ordered, garantimos que os valores estão em ordem
+            //Assert.That(result, Is.Unique);  //Unique, garantimos que os valores são únicos
         }
     }
 }
